@@ -9,7 +9,7 @@ export default {
     './src/client',
   ],
   output: {
-    filename: 'js/bundle.js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: isProd ? '/static/' : `http://localhost:${WDS_PORT}/dist/`,
   },

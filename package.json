@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "license": "MIT",
   "description": "Joystick component for react",
-  "main": "dist/main.js",
-  "author": "williammanco <wmanco88p@gmail.com>",
+  "main": "dist/bundle.js",
+  "author": "williammanco <wmanco88@gmail.com>",
   "browserslist": [
     "> 1%"
   ],
   "scripts": {
     "start": "yarn dev:wds",
     "dev:wds": "webpack-dev-server --progress",
-    "build": "babel src/client/index.jsx > dist/main.js",
+    "build": "babel src/client/index.jsx > dist/bundle.js",
     "lint": "eslint src webpack.config.babel.js --ext .js,.jsx",
     "test": "yarn lint && jest --coverage",
     "precommit": "yarn test",
