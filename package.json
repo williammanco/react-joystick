@@ -15,7 +15,7 @@
     "lint": "eslint src webpack.config.babel.js --ext .js,.jsx",
     "test": "yarn lint && jest --coverage",
     "precommit": "yarn test",
-    "prepush": "yarn test && yarn prod:build"
+    "prepush": "yarn test && yarn build"
   },
   "keywords": [
     "react-component",
